@@ -1,14 +1,13 @@
-import { useState } from 'react'
-import './components/Navbar'
-import './components/Header'
-import './components/Projects'
-import  About from './components/About'
-import './components/Skills'
-import './components/Contact'
-import './styles.css'
+import Navbar from './components/Navbar';
+import Header from './components/Header';
+import Projects from './components/Projects';
+import About from './components/About';
+import Skills from './components/Skills';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import './styles.css';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
@@ -18,9 +17,10 @@ function App() {
       <Skills />
       <About />
       <Contact />
-      <div className="h1">This will be my portfolio site.</div>
+      <Footer />
+      
     </div>
   );
 }
 
-export default App
+export default App;
