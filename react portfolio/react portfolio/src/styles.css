@@ -1,10 +1,9 @@
-/* * {
-    margin: 0;
-    padding: 0;
-} */
+* {
+    box-sizing: border-box;
+}
 
 body {
-  box-sizing: border-box;
+  
   margin: 0;
   padding: 0;
   font-size: 16px;
@@ -37,7 +36,7 @@ a {
 /* ------------- HERO SECTION ------------- */
 
 .hero-image {
-  background-image: url('./assets/images/laptop.jpeg');
+  background-image: url('./assets/images/gray-laptop.jpeg');
   background-position: center;
   background-size: cover;
   height: 90vh;
@@ -45,6 +44,7 @@ a {
   justify-content: center;
 }
 .hero-text {
+    color: white;
   display: flex;
   width: 60%;
   text-align: center;
@@ -61,4 +61,19 @@ a {
 .profile {
   line-height: 40px;
   font-size: 1.5em;
+}
+.contact, .resume {
+    margin: 0 20px;
+    padding: 20px;
+    border-radius: 30px;
+    background: white;
+    border: none;
+    font-size: 18px;
+}
+.resume {
+    background: transparent;
+    color: white;
+}
+.resume:hover {
+    outline: white solid 2px;
 }
