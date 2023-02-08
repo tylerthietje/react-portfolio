@@ -37,11 +37,9 @@ a {
 /* ------------- HERO SECTION ------------- */
 
 .hero-image {
-  background-image: url("./assets/laptop.jpeg");
+  background-image: url('./assets/laptop.jpeg');
   background-position: center;
   background-size: cover;
-
-  
   height: 90vh;
   display: flex;
   justify-content: center;

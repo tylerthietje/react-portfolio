@@ -1,4 +1,4 @@
-import Laptop from '../assets/laptop.jpeg';
+
 
 const Header = () => {
     return (
