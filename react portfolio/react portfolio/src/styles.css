@@ -14,8 +14,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1rem;
+  padding: 0 2rem;
   height: 50px;
+  /* border: 2px solid hotpink; */
 }
 .navbar-header {
   font-family: 'Courier New', Courier, monospace;
@@ -36,12 +37,11 @@ a {
 /* ------------- HERO SECTION ------------- */
 
 .hero-image {
-  background: rgb(213, 213, 213);
-  background: radial-gradient(
-    circle,
-    rgba(213, 213, 213, 1) 0%,
-    rgba(53, 140, 242, 1) 100%
-  );
+  background-image: url("./assets/laptop.jpeg");
+  background-position: center;
+  background-size: cover;
+
+  
   height: 90vh;
   display: flex;
   justify-content: center;
@@ -62,4 +62,5 @@ a {
 }
 .profile {
   line-height: 40px;
+  font-size: 1.5em;
 }
