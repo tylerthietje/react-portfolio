@@ -36,9 +36,7 @@ a {
 /* ------------- HERO SECTION ------------- */
 
 .hero-image {
-  background-image: url('./assets/images/gray-laptop.jpeg');
-  background-position: center;
-  background-size: cover;
+  background:  linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),url('./assets/images/laptop.jpeg') no-repeat center / cover;
   height: 90vh;
   display: flex;
   justify-content: center;
