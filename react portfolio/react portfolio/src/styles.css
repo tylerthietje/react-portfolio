@@ -17,7 +17,7 @@ body {
   height: 50px;
   /* border: 2px solid hotpink; */
 }
-.navbar-header {
+.navbar-logo {
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
   font-size: 2em;
@@ -36,10 +36,11 @@ a {
 /* ------------- HERO SECTION ------------- */
 
 .hero-image {
-  background:  linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),url('./assets/images/laptop.jpeg') no-repeat center / cover;
-  height: 90vh;
+  background:  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),url('./assets/images/laptop.jpeg') no-repeat center / cover;
+  height: 100vh;
   display: flex;
   justify-content: center;
+  /* border: 2px red solid; */
 }
 .hero-text {
     color: white;
@@ -60,18 +61,35 @@ a {
   line-height: 40px;
   font-size: 1.5em;
 }
-.contact, .resume {
+.solid, .transparent {
     margin: 0 20px;
-    padding: 20px;
+    padding: 10px 25px;
     border-radius: 30px;
     background: white;
     border: none;
     font-size: 18px;
 }
-.resume {
+.solid:hover{
+    background-color: lime;
+}
+.transparent {
     background: transparent;
     color: white;
 }
-.resume:hover {
+.transparent:hover {
     outline: white solid 2px;
+}
+
+/* ----------- PROJECT CARDS ----------- */
+
+.cards {
+    display: flex;
+}
+.card {
+    outline: black solid 1px;
+    width: 350px;
+    height: 500px;
+    padding: 20px;
+    margin: 10px;
+
 }

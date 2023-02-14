@@ -12,8 +12,8 @@ const Header = () => {
             management.
           </p>
           <div className="btns">
-            <button className="contact">Contact</button>
-            <button className="resume">View my resume</button>
+            <button className="solid">Contact</button>
+            <button className="transparent">View my resume</button>
           </div>
         </div>
       </section>
