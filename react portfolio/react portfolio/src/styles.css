@@ -2,8 +2,7 @@
     box-sizing: border-box;
 }
 
-body {
-  
+body {  
   margin: 0;
   padding: 0;
   font-size: 16px;
@@ -37,9 +36,11 @@ a {
 
 .hero-image {
   background:  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),url('./assets/images/laptop.jpeg') no-repeat center / cover;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
+  margin: 10px;
+  border-radius: 10px;
   /* border: 2px red solid; */
 }
 .hero-text {
@@ -81,15 +82,27 @@ a {
 }
 
 /* ----------- PROJECT CARDS ----------- */
-
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.projects-heading {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5em;
+    padding: 1em 0;
+}
 .cards {
     display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-between;
 }
 .card {
     outline: black solid 1px;
     width: 350px;
     height: 500px;
     padding: 20px;
-    margin: 10px;
-
 }

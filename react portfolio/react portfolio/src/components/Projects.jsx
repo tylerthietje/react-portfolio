@@ -1,6 +1,7 @@
 const Projects = () => {
   return (
     <div className="projects">
+      <h1 className="projects-heading">&lt;My Projects /&gt;</h1>
       <div className="cards">
         <div className="card">
           <img src="#" alt="Project" className="card-image" />
