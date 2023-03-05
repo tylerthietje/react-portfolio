@@ -1,3 +1,5 @@
+import './card.css';
+
 const Card = () => {
   return (
     <div>
@@ -16,7 +18,7 @@ const Card = () => {
           laborum?
         </p>
       </div>
-      ;
+      
     </div>
   );
 };
